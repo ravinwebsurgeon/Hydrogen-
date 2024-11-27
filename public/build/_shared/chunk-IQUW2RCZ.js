@@ -1,0 +1,1 @@
+function c(){return{total:0,items:{articles:[],collections:[],products:[],pages:[],queries:[]}}}function i({baseUrl:r,trackingParams:t,params:n,term:o}){let e=new URLSearchParams({...n,q:encodeURIComponent(o)}).toString();return t&&(e=`${e}&${t}`),`${r}?${e}`}export{c as a,i as b};
