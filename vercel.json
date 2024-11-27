@@ -1,22 +1,7 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/node",
-        "config": {
-          "zero-config": true
-        }
-      }
-    ],
+
     "env": {
         "SESSION_SECRET":"foobar" 
-       },
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/index.js"
-      }
-    ]
+       }
   }
   
